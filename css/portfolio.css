@@ -528,6 +528,14 @@ header{
         background-image: url('../images/projects/guessthenum.webp');
     }
 
+     .project-container #project-5 {
+            background-image: url('../images/projects/Healthcare.png');
+    }
+
+    .project-container #project-6 {
+            background-image: url('../images/projects/playtube.png');
+    }
+
     .project-card:nth-child(even){
         align-self: flex-end;
     }
