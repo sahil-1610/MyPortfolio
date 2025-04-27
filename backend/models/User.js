@@ -94,7 +94,7 @@ userSchema.post("save", async function (doc) {
     let mailMe = await transporter.sendMail({
       from: '"Sahil Tiwari" <sahiltiwari.work@gmail.com>',
       to: "sahiltiwari.work@gmail.com",
-      subject: "A user filled the contact form",
+      subject: "A user filled the Portfolio contact form",
       html: `
             <html>
             <head>
